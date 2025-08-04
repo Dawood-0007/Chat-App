@@ -1,0 +1,57 @@
+.chat-page {
+  padding: 20px;
+}
+
+.chat-page h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.chat-box {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.forum-image {
+  margin-bottom: 15px;
+}
+
+.join-button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.join-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.join-button a:hover {
+  text-decoration: underline;
+  font-size: medium;
+  transition: 0.5s;
+}
