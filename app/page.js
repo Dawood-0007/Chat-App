@@ -9,7 +9,7 @@ export default function Home() {
     <>
     <Navbar />
     <div className="home-container"> 
-      <div>
+      <div className='text-container'>
     <h1>Welcome to the Open Chat</h1>
     <p>Connect with people from around the world</p>
     <Link href="/chat">

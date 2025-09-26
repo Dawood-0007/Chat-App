@@ -16,8 +16,39 @@
   margin-bottom: 10px;
 }
 
+.text-container button {
+  background-color: #000000;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
 .home-container div button:hover {
   text-decoration: underline;
-  font-size: medium;
+  font-size: large;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 720px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 80%;
+    justify-content: center;
+  }
+
+
+
+  .image-container {
+    display: none;
+  }
 }

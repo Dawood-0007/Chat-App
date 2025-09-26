@@ -95,3 +95,12 @@
   font-size: 14px;
   margin-top: 12px;
 }
+
+@media screen and (max-width: 720px) {
+  .signin-container {
+    width: 80vw;
+  }
+  .social-login {
+    width: 50vw;
+  }
+}

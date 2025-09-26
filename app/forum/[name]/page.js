@@ -10,7 +10,6 @@ const page = async ({ params }) => {
     }
 
     const { name } = await params;
-    console.log(name);
     const userName = session.user.name;
     const nameURL = userName.replace(/\s+/g, '');
 

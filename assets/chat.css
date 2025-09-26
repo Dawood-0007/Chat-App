@@ -55,3 +55,10 @@
   font-size: medium;
   transition: 0.5s;
 }
+
+@media screen and (max-width: 720px) {
+  .chat-box {
+    width: 80vw;
+  }
+  
+}

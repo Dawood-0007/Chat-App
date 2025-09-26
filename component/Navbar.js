@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Navbar = () => {
   return (
     <div className="navbar">
-        <h1>Chat App</h1>
+        <h1>Open Chat</h1>
         <nav className="nav-ul">
             <ul className="nav-links">
                 <li><Link href="/">Home</Link></li>
