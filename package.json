@@ -10,14 +10,14 @@
   },
   "dependencies": {
     "bcrypt": "^6.0.0",
-    "mysql2": "^3.15.1",
-    "next": "15.5.4",
-    "next-auth": "^4.24.11",
-    "pg": "^8.16.3",
-    "react": "19.1.1",
-    "react-dom": "19.1.1",
-    "stream-chat": "^9.20.0",
-    "stream-chat-react": "^13.7.0"
+    "mysql2": "^3.22.5",
+    "next": "16.2.9",
+    "next-auth": "^4.24.14",
+    "pg": "^8.21.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "stream-chat": "^9.46.0",
+    "stream-chat-react": "^14.4.1"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
