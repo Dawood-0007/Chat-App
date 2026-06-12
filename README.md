@@ -25,6 +25,8 @@ after that run
 
 and then you have to setup you environment variable as  
 
+```
+
 GITHUB_ID=  
 GITHUB_SECRET=  
 NEXT_PUBLIC_URL=http://localhost:3000  
@@ -35,7 +37,9 @@ DB_NAME=
 DB_HOST=  
 DB_USER=  
 DB_PASS= 
-  
+
+```
+
 Fill all these creditential by creating an account on getstream.io, create a new app, and copy the API key and secret.
 
 GitHub Auth: Go to GitHub > Settings > Developer settings > OAuth Apps and create a new app to get your client ID and secret.
