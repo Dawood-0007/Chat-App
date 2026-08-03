@@ -20,8 +20,10 @@ First Clone the Repositery by running
 `git clone https://github.com/your-username/Chat-App.git`  
 
 after that run  
-
-`npm install`  
+```
+cd Chat-App/
+npm install  
+```
 
 and then you have to setup you environment variable as  
 
